@@ -1,0 +1,128 @@
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+} */
+
+//Switch Toogle button START
+.switchToggle input[type="checkbox"] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+}
+.switchToggle label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 70px;
+    max-width: 70px;
+    height: 30px;
+    background: #d1d1d1;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+.switchToggle label:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+.switchToggle input:checked + label,
+.switchToggle input:checked + input + label {
+    background: #3e98d3;
+}
+.switchToggle input + label:before,
+.switchToggle input + input + label:before {
+    content: "No";
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    width: 26px;
+    height: 26px;
+    border-radius: 90px;
+    transition: 0.3s;
+    text-indent: 0;
+    color: #fff;
+}
+.switchToggle input:checked + label:before,
+.switchToggle input:checked + input + label:before {
+    content: "Yes";
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 26px;
+    height: 26px;
+    border-radius: 90px;
+    transition: 0.3s;
+    text-indent: 0;
+    color: #fff;
+}
+.switchToggle input:checked + label:after,
+.switchToggle input:checked + input + label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+.switchToggle label:active:after {
+    width: 60px;
+}
+.toggle-switchArea {
+    margin: 10px 0 10px 0;
+}
+//Switch Toogle button END
+
+.img-height-40 {
+    max-height: 40%;
+}
+
+.user-status {
+    margin: 0;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+
+// User details modal edit icon
+.userEditIcon {
+    margin-top: 10px;
+    padding: 5px;
+    color: $tst_dark_blue;
+}
+
+.userEditIcon:hover {
+    color: $cyan;
+}
+
+#dtBasicExample p{
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.modal-header .close{
+    padding: 0;
+    margin: 0;
+}
+
+#userDetailsEdit{
+    font-size: 25px;
+    cursor: pointer;
+}

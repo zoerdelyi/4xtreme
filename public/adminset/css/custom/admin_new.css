@@ -1,0 +1,123 @@
+.sidebar {
+    background: url(/images/background/animation-image-2.png);
+}
+.sidebar[data-color="purple"]:after {
+    background: linear-gradient(to bottom, #a00d0d 0%, #ae0000 100%);
+}
+#navbar{
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 11px;
+}
+@media (max-width: 991px){
+    #navbar{
+        padding: 15px;
+    }
+}
+.navbar-right{
+    margin-right: 0;
+}
+.navbar-default .navbar-nav > li > a:not(.btn){
+    color: #656565;
+}
+
+div[data-notify="container"] { 
+    width: auto; 
+}
+
+.page-footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: #FFF;
+}
+
+.page-footer p{
+    margin: 0;
+}
+
+.far{
+    margin-right: 6px;
+}
+
+.fas{
+    margin-right: 6px;
+}
+.form-check input[type="checkbox"], .form-check-radio input[type="radio"]{
+    opacity: initial;
+    position: relative;
+    visibility: visible;
+}
+
+.form-check .form-check-label{
+    padding-left: 0px;
+}
+
+#top_right{
+    float: right;
+}
+#order_save {
+    margin-bottom: 20px;
+}
+.back_button{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 991px){
+    .nav-mobile-menu .nav-item .nav-link .no-icon {
+        padding-left: 0px;
+    }
+}
+.admin_title {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-family: arial;
+    line-height: 1.1;
+    color: #000;
+}
+
+.plus_text{
+    margin: 10px 0 20px 0;
+    font-style: italic;
+}
+
+.show_hide_menu_sidebar{
+    display: none;
+}
+
+.show_hide_menu_main-panel{
+    width: 100%;
+}
+
+.navbar .btn{
+    margin: 0;
+}
+
+div[data-notify="container"]{
+    width: auto !important;
+}
+
+.sidebar .nav li .nav-link, body>.navbar-collapse .nav li .nav-link{
+    padding: 10px 0 10px 10px;
+    margin: 5px;
+}
+
+.sidebar .nav li .parent-link:hover{
+    background: none;
+    opacity: .86;
+}
+
+.sidebar-wrapper .nav ul{
+    padding-left: 40px;
+}
+
+.sidebar .sidebar-wrapper, body>.navbar-collapse .sidebar-wrapper{
+    padding-bottom: 0;
+}
+
+.alert button.close{
+    background-color: transparent;
+    top: 8px !important;
+    right: -3px !important;
+    opacity: .5;
+}

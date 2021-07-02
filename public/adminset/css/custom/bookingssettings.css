@@ -1,0 +1,35 @@
+.settings_block{
+    background: #FFF;
+    border: solid 1px #e5e5e5;
+    padding: 15px;
+}
+.bookings_settings_p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.btn_dates{
+    margin-bottom: 5px;
+}
+
+.btn_dates_ajax{
+    margin-right: 5px;
+}
+
+.datepicker-container{
+    z-index: 999999 !important;
+}
+
+.dates-list-box{
+    margin-bottom: 20px;
+    background: #eef6ff;
+    padding: 20px 0;
+    border: solid 1px #d0e6ff;
+    border-left: none;
+    border-right: none;
+}
+
+hr{
+    border-top: solid 1px #971817;
+    margin: 3rem 0 0.5rem;
+}

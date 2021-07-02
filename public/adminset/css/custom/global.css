@@ -1,0 +1,10 @@
+.hide {
+    display: none;
+}
+
+.modal-header-fix {
+    padding: 12px 24px !important;
+}
+
+/* Bootstrap Notify értesítések z-indexe legyen minidg felül! */
+[data-notify] { z-index: 99999 !important; }

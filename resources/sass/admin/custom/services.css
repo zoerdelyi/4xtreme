@@ -1,0 +1,22 @@
+.editServiceButton {
+    margin: 0 auto;
+}
+
+.settings_block{
+    background: #FFF;
+    border: solid 1px #e5e5e5;
+    padding: 15px;
+}
+
+hr{
+    border-top: solid 1px #971817;
+    margin: 2rem 0 0.5rem;
+}
+
+.removeServiceButton, .editServiceButton{
+    float: right;
+}
+
+.btn-danger{
+    min-width: 113px;
+}

@@ -1,0 +1,179 @@
+.bootstrap-calendar{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.bootstrap-calendar, .bootstrap-calendar .wrapper{
+    min-height: auto;
+}
+.bootstrap-calendar button{
+    font-size: 16px !important;
+}
+.bootstrap-calendar h3{
+    font-size: 28px !important;
+}
+.bootstrap-calendar .select_booking_type{
+    font-size: 22.4px !important;
+}
+.bootstrap-calendar .admin_title{
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-family: arial;
+    line-height: 1.1;
+    color: #000;
+    font-size: 22px !important;
+}
+.bootstrap-calendar .fa{
+    margin-right: 6px;
+}
+.bootstrap-calendar .modal {
+    overflow-y:auto;
+    font-size: 16px;
+}
+.bootstrap-calendar .modal-title{
+    font-size: 20px;
+}
+.bootstrap-calendar .btn, .bootstrap-calendar textarea{
+    font-size: 16px !important;
+}
+.bootstrap-calendar input, .bootstrap-calendar select{
+    font-size: 16px !important;
+    height: 38px !important;
+    padding: 6px 12px !important;
+}
+.tower_block{
+    margin-bottom: 40px;
+}
+.cal_titles{
+    border: solid 1px black;
+    border-left: none;
+    padding: 4px 0px;
+    background-color: #333;
+}
+.cal_titles p{
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.cal_dates div{
+    display: block;
+    text-align: center;
+    margin: 0;
+    border: solid 1px;
+    border-top: none;
+}
+.cal_free_space div{
+    display: block;
+    text-align: center;
+    margin: 0;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    color: white;
+    border-color: black;
+}
+.cal_free_space div:hover{
+    opacity: 0.9;
+}
+.cal_free_space .cal_free{
+    background: green;
+    cursor: pointer;
+}
+.cal_free_space .cal_reserved{
+    background: #911615;
+    cursor: default;
+}
+.cal_free_space .cal_progressed{
+    background: orange;
+    cursor: default;
+    color: #000;
+}
+.cal_free_space .closed{
+    background: #777777;
+    cursor: default;
+}
+/* Speciális margin - padding Bootstrap div-es táblázatokhoz! */
+.row-no-padding {
+    margin-left: 0;
+    margin-right: 0;
+}
+.row-no-padding [class*="col-"],  /* Elements whose class attribute begins with "col-" */
+.row-no-padding [class^="col-"] { /* Elements whose class attribute contains the substring "col-" */
+    padding-left: 0;
+    padding-right: 0;
+}
+.noselect {
+-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+.admin_subtitle{
+    color: #003680;
+    display: none;
+}
+#calendar_holder{
+    min-height: 400px;
+}
+#calendar_holder .intro_layer{
+    display: none;
+}
+#calendar_holder .calendar_layer{
+    position: relative;
+    display: none;
+}
+#booking_restart{
+    display: none;
+}
+#calendar_holder .select_type p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 60px 0px;
+    border: solid 1px;
+    cursor: pointer;
+}
+#calendar_holder .select_type p:hover{
+    background: #333;
+    color: #FFF;
+}
+#calendar_holder .select_elements{
+    margin: 30px 0px;
+}
+#countdown_btn{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#serviceListloader{
+    display: none;
+}
+
+#update_without_preloader{
+    background-repeat: no-repeat;
+    background-image: url(/adminset/img/icons/preloader.gif);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.page-link {
+    min-width: 110px;
+    text-align: center;
+}
+
+/* @media (min-width: 576px){
+    .modal-dialog{
+        max-width: 800px;
+    }
+} */
+
+.modal p{
+    word-wrap: break-word;
+}

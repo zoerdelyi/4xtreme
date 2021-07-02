@@ -1,0 +1,55 @@
+.dd-item, .dd-empty, .dd-placeholder{
+    cursor: move;
+}
+#admin_top {
+    overflow: hidden;
+}
+.admin_title {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-family: arial;
+    line-height: 1.1;
+    color: #000;
+    float: left;
+}
+.glyphicon-floppy-save {
+    margin-right: 8px;
+    vertical-align: -3px;
+    font-size: 16px;
+}
+
+.dd-item{
+    height: auto;
+    line-height: normal;
+}
+
+.dd-handle{
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    height: auto;
+    line-height: normal;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.menu_inactive{
+    background-color: #f7d9d9;
+    border-color: #f1bcbc;
+    color: #8f3131;
+}
+
+.menu_highlighted{
+    border: solid 2px #003680;
+}
+
+#menu_settings{
+    margin-top: 20px;
+}
+
+.line_input{
+    margin-bottom: 20px;
+}
+.dd{
+    max-width: none !important;
+}

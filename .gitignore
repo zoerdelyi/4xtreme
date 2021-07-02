@@ -1,0 +1,7 @@
+/.vscode
+/node_modules
+/vendor
+package.json
+package-lock.json
+.env
+webpack.mix.js

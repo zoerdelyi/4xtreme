@@ -1,0 +1,46 @@
+/* Témaspecifikus stílus módosítások */
+.gallery-item {
+    position: relative;
+}
+.gallery-item img {
+    opacity: 1;
+    transition: none;
+}
+.gallery-item::before {
+    position: relative;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #14222d;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gallery-item:hover img {
+    opacity: 1;
+    transition: none;
+}
+.why-us-column .inner-box .count{
+    display: none;
+}
+.note-editor.note-frame .note-editing-area .note-editable{
+    overflow: hidden;
+}
+#phone_table a{
+    color: #000;
+}
+#modal-image{
+    z-index: 9999;
+}
+.modal-content{
+    color: #31708f;
+    border: solid 1px #bce8f1;
+}
+.modal-header{
+    background-color: #d9edf7;
+}
+.modal-title{
+    font-weight: 600;
+}

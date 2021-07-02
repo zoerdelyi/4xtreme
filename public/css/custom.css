@@ -1,0 +1,353 @@
+body{
+    font-size: 15px;
+}
+
+.default-form .form-group .field-label{
+    font-size: 15px;
+}
+
+.main-footer .footer-bottom{
+    font-size: 15px;
+}
+
+.list-style-one li{
+    font-size: 15px;
+}
+
+.page-title .bread-crumb li{
+    font-size: 15px;
+}
+
+.centered-title .desc-text{
+    font-size: 15px;
+}
+
+.page-title{
+    padding: 60px 0px;
+}
+
+.about-section .two-column .image-caption{
+    text-transform: none;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.contact-section .contact-info li .inner-box{
+    padding: 20px 10px 30px;
+}
+
+.main-header .logo-outer .logo img {
+    max-width: 140px;
+}
+
+.logo img{
+    max-width: 70px;
+}
+
+.main-menu .navigation > li > a.custom-parent{
+    color: #f44122;
+    opacity: 1;
+}
+
+.main-menu .navigation > li > ul > li > a.custom-children{
+    background: #f44122;
+}
+
+.default-form .form-group .field-label{
+    text-transform: none;
+}
+
+.contact-section{
+    padding: 20px 0 20px;
+}
+
+.main-header .header-upper{
+    padding: 10px 0px;
+}
+
+.main-header .header-upper .upper-right{
+    padding: 5px 0px 0px 0px;
+}
+
+.contact-section .contact-info li strong{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1140px){
+    .main-header .header-upper .logo-outer {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .main-menu .navigation > li > a.custom-parent{
+        color: #FFF;
+    }
+    .services-four .service-block .inner-box{
+        text-align: left;
+    }
+}
+
+.why-us-column .inner-box h3{
+    font-weight: bold;
+}
+
+.spec-table{
+    margin-bottom: 50px;
+    overflow-x: auto;
+}
+
+.spec-table th, td{
+    text-align: center;
+}
+
+.spec-table th{
+    background: #242424;
+    color: #FFF;
+}
+
+.table-description{
+    text-align: center;
+}
+
+.team-style-one{
+    padding: 50px 0;
+}
+
+.about-section{
+    padding: 50px 0;
+}
+
+.why-choose-us{
+    padding: 50px 0;
+}
+
+.centered-title{
+    margin-bottom: 40px;
+}
+
+.services-four .service-block .inner-box{
+    position: relative;
+    border: solid 1px #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.services-four .service-block .inner-box .icon-box{
+    margin-right: 5px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    line-height: 40px;
+    color: #f44122;
+    float: left;
+}
+
+.services-four .service-block .inner-box h3{
+    padding-left: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list-style-two li{
+    position: relative;
+    line-height: 18px;
+    margin-bottom: 8px;
+    padding-left: 22px;
+    font-size: 15px;
+}
+
+.list-style-two li:before{
+    top: 3px;
+}
+
+.services-four{
+    position: relative;
+    background: none;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.services-four ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+.services-four li{
+    list-style: initial;
+    line-height: 26px;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 767px){
+    .services-four .service-block .inner-box{
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 1360px){
+    .tparrows{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 990px){
+    .motor_beuszo{
+        max-width: 160%;
+        margin-top: -120px;
+    }
+}
+
+.why-choose-us .isolated-image{
+    margin-top: -70px;
+}
+
+.centered-title h2{
+    overflow: hidden;
+}
+
+.contact-section .contact-info li span{
+    color:#000;
+}
+
+.contact-section .contact-info li .inner-box:hover span{
+    color: #FFF;
+}
+
+.form_strong{
+    font-weight: bold;
+}
+
+.contact-form input[type="radio"]{
+    margin-right: 5px;
+}
+
+.contact-form .radio-text{
+    color: #000;
+    font-weight: normal;
+}
+
+/* Lapozó rendszer */
+  .gallery-item {
+    position: relative;
+  }
+  .gallery-item img {
+    opacity: 1;
+    transition: opacity 0.35s;
+  }
+  .gallery-item::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #14222d;
+    background-image: url(/images/owl/s8_zoom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .gallery-item:hover img {
+    opacity: 0.2;
+    transition: opacity 0.35s;
+  }
+  
+  .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .owl-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .mfp-counter{
+      display: none;
+  }
+
+.owl-carousel .owl-item img {
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height: 300px;
+    object-fit: cover;
+}
+
+  /* Lapozó rendszer */
+  
+    .info-box a{
+    color: #fff;
+  }
+
+  .info-box a:hover{
+   color: #000;
+  }
+
+@media only screen and (max-width: 1199px){
+    .logo_text{
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .main-header .logo-outer .logo img{
+        max-width: 190px !important;
+    }
+}
+
+.menu_highlighted{
+	color: #FFF !important;
+    font-weight: bold !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background: #f44122 !important;
+}
+
+@font-face {
+  font-family: UbuntuRegular;
+  src: url(/fonts/ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSansCustom;
+  src: url(/fonts/opensans/OpenSans-Regular.ttf);
+}
+
+.footer_separator{
+    display: none;
+}
+
+@media only screen and (min-width: 418px) {
+    .footer_separator{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 991px) {
+  .reorder {
+    display: flex;
+    display: -ms-flex;
+    flex-direction: column;
+  }
+  .reorder .item1 {
+    order: 2;
+  }
+  .reorder .item2 {
+    order: 1;
+  }
+}
+
+/** Header rész nyitvatartás normális kijelzése: */
+@media only screen and (max-width: 1140px){
+    .main-header .info-box {
+        display: inline-grid;
+        width: auto;
+    }
+}

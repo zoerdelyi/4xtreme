@@ -1,0 +1,266 @@
+.note-editor img {
+    max-width: 100%;
+}
+
+#draggablePanelList .panel-list-heading {
+    overflow: hidden;
+}
+
+#draggablePanelList .panel-list-body {
+    display: none;
+    overflow: hidden;
+    margin: 5px 0px;
+}
+
+#draggablePanelList .panel-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border: solid 1px #bce8f1;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+#draggablePanelList .panel-info span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#draggablePanelList .panel-info:hover {
+    color: #2ea8e5;
+    background: #fff;
+}
+
+.glyphicon-edit {
+    margin-right: 2px;
+    vertical-align: -1px;
+}
+.glyphicon-remove {
+    margin-right: 2px;
+    vertical-align: -1px;
+}
+.right_block {
+    float: right;
+}
+.edit_block {
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.block_name {
+    margin: 0;
+    float: left;
+}
+.block_id {
+    float: left;
+    margin-right: 20px;
+}
+.update_block {
+    float: left;
+    margin-right: 20px;
+    line-height: 1;
+}
+.remove_block {
+    float: left;
+    cursor: pointer;
+}
+#admin_top {
+    overflow: hidden;
+}
+.admin_title {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-family: arial;
+    line-height: 1.1;
+    color: #000;
+    float: left;
+}
+.glyphicon-floppy-save {
+    margin-right: 8px;
+    vertical-align: -3px;
+    font-size: 16px;
+}
+.glyphicon-plus {
+    margin-right: 6px;
+    font-size: 16px;
+    vertical-align: -1px;
+}
+
+#new_block_hidden {
+    display: none;
+    margin-top: 20px;
+}
+#new_block_hidden_select {
+    vertical-align: -2px;
+    font-size: 15px;
+    padding: 6px 12px;
+    border: solid 1px;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+#new_block_add {
+    margin-top: 20px;
+}
+
+/*fix dropdown*/
+.note-btn-group .dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.note-popover .popover-content .note-color .dropdown-toggle,
+.note-editor .panel-heading.note-toolbar .note-color .dropdown-toggle {
+    width: 20px;
+    padding-left: 1px;
+}
+
+/*fix icon button*/
+.note-editor .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.note-editor .btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.note-editor .dropdown-toggle:after {
+    content: initial;
+}
+
+/*fix background toolbar*/
+.note-editor .panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+/*fix modal*/
+.note-editor .modal-header {
+    display: block;
+}
+
+/*fix popover*/
+.note-popover {
+    display: none;
+}
+
+#draggablePanelList .note-btn.btn.btn-default.btn-sm {
+    line-height: 17px;
+}
+#draggablePanelList .panel-info span {
+    font-size: 14px;
+}
+
+.panel-list-heading .handle {
+    float: left;
+    cursor: move;
+    line-height: 2em;
+}
+
+/* Custom toggle button */
+.checkbox-gs {
+    min-width: 18px;
+    min-height: 18px;
+}
+
+.custom-checkbox {
+    min-height: 1rem;
+    padding-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+}
+.custom-checkbox .custom-control-indicator {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 10px;
+    background-color: #818181;
+    border-radius: 15px;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+    vertical-align: middle;
+    margin: 0 0 0 5px;
+    box-shadow: none;
+}
+.custom-checkbox .custom-control-indicator:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #f1f1f1;
+    border-radius: 21px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+    left: -2px;
+    top: -4px;
+    -webkit-transition: left 0.3s ease, background 0.3s ease,
+        box-shadow 0.1s ease;
+    transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-indicator {
+    background-color: var(--gs_red_000);
+    background-image: none;
+    box-shadow: none !important;
+}
+.custom-checkbox
+    .custom-control-input:checked
+    ~ .custom-control-indicator:after {
+    background-color: var(--gs_red_200);
+    left: 15px;
+}
+.custom-checkbox .custom-control-input:focus ~ .custom-control-indicator {
+    box-shadow: none !important;
+}
+
+.custom-control input {
+    visibility: hidden;
+}
+
+.dark-mode{
+    float: left;
+    margin-right: 20px;
+}
+
+.dark-mode .fa-moon{
+    float: left;
+    line-height: 32px;
+    margin: 0;
+}
+
+.dark-mode .custom-checkbox{
+    float: left;
+}
+
+.dark_mode_on{
+    background-color: #000;
+}
+
+.modal-body-route p{
+    margin: 0px;
+    padding: 5px;
+    background: #f1f1f1;
+    color: #000;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+    font-size: 14px;
+}
+#imagepreview{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto !important;
+    max-width: 100%;
+}
+.spec_modal_holder{
+    background: #00000078;
+}
